@@ -20,3 +20,9 @@ export interface Completion extends Models.Document {
     $createdAt: string;
     $updatedAt: string;
 }
+
+export interface StreakData {
+    streak: number;
+    best: number;
+    total : number
+}

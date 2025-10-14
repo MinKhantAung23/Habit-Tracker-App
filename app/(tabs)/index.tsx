@@ -66,6 +66,7 @@ export default function Index() {
       };
     }
   }, [user]);
+  
   const fetchHabits = async () => {
     try {
       const response = await databases.listDocuments(
@@ -185,7 +186,7 @@ export default function Index() {
               overshootRight={false}
               renderLeftActions={renderLeftActions}
               renderRightActions={() => renderRightActions(habit.$id)}
-              onSwipeableOpen={(direction) => { 
+              onSwipeableOpen={(direction) => {
                 if (direction === "left") {
                   handleDeleteHabit(habit.$id);
                 } else if (direction === "right") {
@@ -193,14 +194,13 @@ export default function Index() {
                 }
                 swipeableRefs.current[habit.$id]?.close();
               }}
-             
             >
               <Surface
                 elevation={1}
                 style={{ marginBottom: 20, borderRadius: 16 }}
               >
                 <View
-                  className={`space-y-2 p-4 rounded-2xl  shadow-md ${isHabitCompleted(habit.$id) ? "bg-green-400" : "bg-white"}`}
+                  className={`space-y-2 p-4 rounded-2xl  shadow-md ${isHabitCompleted(habit.$id) ? "bg-blue-400" : "bg-white"}`}
                 >
                   <Text className="text-lg font-semibold text-gray-900">
                     {habit.title}
