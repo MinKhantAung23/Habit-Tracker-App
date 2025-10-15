@@ -1,50 +1,45 @@
-# Welcome to your Expo app 👋
+# Habit Tracker App ✅
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A mobile app built with **React Native + Expo + Appwrite** for tracking daily habits, streaks, and completions.
 
-## Get started
+---
 
-1. Install dependencies
+## 🛠 Technology Stack
 
-   ```bash
-   npm install
-   ```
+- **Frontend:** React Native, Expo, React Native Paper, TailwindCSS (via nativewind)  
+- **Backend:** Appwrite 
+- **State Management:** React hooks  
+- **Icons:** Ionicons  
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🚀 Features
 
-In the output, you'll find options to open the app in a
+### 1. Authentication
+- Email/password login & sign out
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 2. Habit Management
+- Add, complete, and delete habits
+- Track habit description, frequency, and streak count
+- Swipe actions to delete or mark habit as completed
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 3. Completions
+- Track daily habit completions
+- Automatic streak calculation
+- Highlight completed habits with color & icon
 
-## Get a fresh project
+### 4. Streaks / Ranking
+- Calculate total streak, best streak, and total completions
+- Rank habits based on best streak
+- Display ranking cards with habit title, description, streak, and total completions
 
-When you're ready, run:
+---
 
-```bash
-npm run reset-project
-```
+## 📦 Download APK
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+You can install the app on any Android device by downloading the APK:
 
-## Learn more
+[Download Habit Tracker APK](https://expo.dev/artifacts/eas/e1UpyboQsCEBwVD7D49Ark.apk)  
 
-To learn more about developing your project with Expo, look at the following resources:
+> ⚠️ Make sure "Install from Unknown Sources" is enabled on your phone.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
