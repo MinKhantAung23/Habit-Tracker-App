@@ -41,7 +41,7 @@ A mobile app built with **React Native + Expo + Appwrite** for tracking daily ha
 
 You can install the app on any Android device by downloading the APK:
 
-[Download Habit Tracker APK](https://expo.dev/accounts/mkxxxx/projects/habit-tracker/builds/69671957-e294-4c79-ae75-52d4e70a6415)  
+[Download Habit Tracker APK](https://expo.dev/artifacts/eas/e1UpyboQsCEBwVD7D49Ark.apk)  
 
 > ⚠️ Make sure "Install from Unknown Sources" is enabled on your phone.
 
