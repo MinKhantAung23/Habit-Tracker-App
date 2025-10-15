@@ -7,10 +7,9 @@ A mobile app built with **React Native + Expo + Appwrite** for tracking daily ha
 ## 🛠 Technology Stack
 
 - **Frontend:** React Native, Expo, React Native Paper, TailwindCSS (via nativewind)  
-- **Backend:** Appwrite (Realtime DB, Auth)  
+- **Backend:** Appwrite 
 - **State Management:** React hooks  
 - **Icons:** Ionicons  
-- **Navigation:** React Navigation (if used)  
 
 ---
 
@@ -18,7 +17,6 @@ A mobile app built with **React Native + Expo + Appwrite** for tracking daily ha
 
 ### 1. Authentication
 - Email/password login & sign out
-- User-specific habits and completions
 
 ### 2. Habit Management
 - Add, complete, and delete habits
