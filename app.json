@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "habit-tracker",
+    "name": "Habit Tracker",
     "slug": "habit-tracker",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,7 +19,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.mkxxxx.habittracker"
     },
     "web": {
       "output": "static",
@@ -43,6 +44,12 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "4a56b866-33d4-48e0-b09a-1cdcfd7df9cd"
+      }
     }
   }
 }
